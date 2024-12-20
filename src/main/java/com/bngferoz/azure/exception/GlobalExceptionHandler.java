@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import com.bngferoz.azure.model.ApiError; // Assuming you have a model for error response.
 
 //@ControllerAdvice
+@RestControllerAdvice
 public class GlobalExceptionHandler {
 
     // Handle ResourceNotFoundException
